@@ -1,0 +1,185 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+.navbar{
+    background-color: black;
+    padding: 8px;
+}
+.navbar li:hover{
+    background-color: black;
+    height: 18px;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+    background-color: white;
+}
+
+.image-section img{
+    width: 500px;
+    padding: 0;
+    margin: 0;
+    height: 615px;
+}
+
+.text-section{
+    margin-left: 40px;
+    padding: 40px;
+    max-width: 600px;
+}
+
+.footer-container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    height: 55px;
+    
+}
+
+.footer-icons a{
+    margin: 3px;
+    color: white;
+    font-size: 15px;
+}
+
+.about-image-section img{
+    height: 520px;
+    width: 500px;
+    padding: 0;
+    margin: 0;
+}
+
+.about-text-section{
+    color: black;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.about-text-section p{
+    color: black;
+    font-size: 14px;
+}
+.about-text-section h3{
+    font-size: 16px;
+    margin: 10px;
+    font-weight: bold;
+}
+.container-image{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    height: 620px;
+}
+
+.project.container{
+    height: 620px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.project1-container-card{
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    height: 280px;
+    width: 1450px;
+    padding: 5px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.project1-image-section img{
+    height: 180px;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+}
+.project1-text-section{
+    padding-left: 20px;
+    color: black;
+}
+
+.project1-text-section h3{
+    font-size: 20px;
+
+}
+.project1-text-section p{
+    font-size: 16px;
+}
+.project2-container-card{
+     border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    height: 280px;
+    width: 1450px;
+    padding: 5px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.project2-image-section img{
+    height: 180px;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+}
+.project2-text-section{
+    padding-left: 20px;
+    color: black;
+}
+.project2-text-section h3{
+    font-size: 20px;
+
+}
+.project2-text-section p{
+    font-size: 16px;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    margin: 0;
+    padding: 0;
+}
+.contact-container a{
+    margin: 10px;
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+    color: black;
+    text-decoration: none;
+}
+.contact-section ul{
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-top: 90px;
+    list-style-type: none;
+    color: black;
+}
